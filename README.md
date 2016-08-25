@@ -72,14 +72,16 @@
 
 ### $PC function
   $PC("url", successFunctionCall, errorFunctionCall);  
+  
   `json`  
   successFunctionCall(json, state, xmlhttp_obj);  
   errorFunctionCall(state, xmlhttp_obj);  
+  
   `jsonp`  
   successFunctionCall(json, state, jsonp_obj);  
   errorFunctionCall(state, jsonp_obj);  
 
-> `NOTE` have not support POST 
+### `NOTE` have not support POST 
 
 ## License
   Under The [MIT](https://tldrlegal.com/license/mit-license) License
