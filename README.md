@@ -26,7 +26,7 @@
   </script>
   ```
   
-  but with pagecache we can do this by one reqeust only:
+  but with pagecache we can do following by one reqeust only:
   ```javascript
   <script>
     $PC("the API url", function(json){
